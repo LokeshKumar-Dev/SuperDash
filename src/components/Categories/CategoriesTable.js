@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const CategoriesTable = () => {
 
   const categoryList = useSelector((state) => state.categoryList);
-  const { loading, error, categories } = categoryList;
+  const { categories } = categoryList;
 
   return (
     <div className="col-md-12 col-lg-8">
